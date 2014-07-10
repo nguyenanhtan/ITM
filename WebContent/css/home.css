@@ -1,0 +1,44 @@
+#list-function
+{
+	list-style: none outside none;
+	text-align: center;
+	padding: 10px 10%;
+}
+#list-function li
+{
+	height: 80px;
+	float: left;
+	width: 22%;
+	border: 1px solid #D5D6D7;
+	/* margin-right: 1%; */
+	margin-top: 10px;
+	/* padding: 20px 0; */
+	margin-left: 2%;
+	border-radius: 2px 21px;
+}
+#list-function li a:hover
+{
+	background: #ECF3D1;
+	cursor:pointer;
+	box-shadow: 3px 3px 3px #B1B3AB;
+}
+#list-function li a
+{
+	text-decoration-line: inherit;
+	display: block;
+	padding: 20px 10px;
+	height: 40px;
+	color: #04169E;
+	font-weight: bold;
+	border-radius: 2px 20px;
+}
+#list-function li a:active
+{
+
+}
+#list-function li div
+{
+	height: 40px;
+	width: 80%;
+	padding: 20px 10%;
+}

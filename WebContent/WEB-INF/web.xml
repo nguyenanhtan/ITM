@@ -1,0 +1,25 @@
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>ITrainingManager</display-name>
+  <welcome-file-list>
+    <welcome-file>Login.jsp</welcome-file>
+  </welcome-file-list>
+
+
+<servlet> <servlet-name>TeacherManager</servlet-name> 
+<servlet-class>requesthandlers.TeacherManager</servlet-class> 
+</servlet> 
+
+<servlet-mapping> <servlet-name>TeacherManager</servlet-name> 
+<url-pattern>/TeacherManager</url-pattern> 
+</servlet-mapping> 
+  
+
+<servlet> <servlet-name>DefenseScheduleManager</servlet-name> 
+<servlet-class>requesthandlers.DefenseScheduleManager</servlet-class> 
+</servlet> 
+
+<servlet-mapping> <servlet-name>DefenseScheduleManager</servlet-name> 
+<url-pattern>/DefenseScheduleManager</url-pattern> 
+</servlet-mapping> 
+
+</web-app>
